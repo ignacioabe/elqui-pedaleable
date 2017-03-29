@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación Almendral",
+        "description": "Estado de conservación: demolida<br>Uso actual: terreno privado",
+        "img": "almendral.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.89467707090438,
+          -29.982730569316477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación Altovalsol",
+        "description": "Estado de conservación: deteriorada<br>Uso actual: bodega",
+        "img": "altovalsol.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.12386428751718,
+          -29.946563914415304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación Diaguitas",
+        "description": "Estado de conservación: restaurada<br>Uso actual: domicilio particular",
+        "img": "diaguitas.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.63514736481173,
+          -30.020606545730807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación El Arenal",
+        "description": "Estado de conservación: restaurada<br>Uso actual: dependencias del colegio municipal de el Arenal",
+        "img": "el-arenal.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.67095762118878,
+          -30.0257399585091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación El Molle",
+        "description": "Estado de conservación: restaurada<br>Uso actual: comisaría de carabineros",
+        "img": "el-molle.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.95213543624106,
+          -29.97770234942261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación El Tambo",
+        "description": "Estado de conservación: reconstruída parcialmente<br>Uso actual: sin uso",
+        "img": "el-tambo.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.77564113773659,
+          -30.020015286280703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación Gualliguaica",
+        "description": "Estado de conservación: inundada y reconstruída en otro lugar<br>Uso actual: museo de Gualliguaica",
+        "img": "gualliguaica.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.81829119473983,
+          -30.004646647720378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación El Islón",
+        "description": "Estado de conservación: daño menor<br>Uso actual: bodega",
+        "img": "el-islon.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.18440048769894,
+          -29.902149802070394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación La Serena",
+        "description": "Estado de conservación: restaurada<br>Uso actual: oficinas y casa de la cultura, Municipalidad de la Serena",
+        "img": "la-serena.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2569898646418,
+          -29.902642574157113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación Marquesa",
+        "description": "Estado de conservación: restaurada<br>Uso actual: sin uso",
+        "img": "marquesa.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.97383601591437,
+          -29.965476421637444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación Pelícana",
+        "description": "Estado de conservación: deteriorada<br>Uso actual: sin uso",
+        "img": "pelicana.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.00667689927411,
+          -29.988259272647806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación Rivadavia",
+        "description": "Estado de conservación: daño menor<br>Uso actual: sin uso",
+        "img": "rivadavia.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.56149675510949,
+          -29.977263053878684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación Vicuña",
+        "description": "Estado de conservación: restaurada<br>Uso actual: sin uso",
+        "img": "vicuna.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.71886765770826,
+          -30.0278791040174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Estación Las Rojas",
+        "description": "Estado de conservación: restaurada<br>Uso actual: domicilio particular",
+        "img": "las-rojas.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.05961398222117,
+          -29.97945173643286
+        ]
+      }
+    }
+  ]
+}
