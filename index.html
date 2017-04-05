@@ -29,26 +29,27 @@
 }
 
   L.control.layers({
-    'Mapbox Streets': L.mapbox.tileLayer('mapbox.streets').addTo(map),
-    'Mapbox Light': L.mapbox.tileLayer('mapbox.light')
+    'Mapa': L.mapbox.tileLayer('mapbox.streets').addTo(map),
+    'Foto Satelital': L.mapbox.tileLayer('mapbox.satellite')
   }, {
-//    ferrovias2,
-    'Estaciones': L.mapbox.featureLayer().loadURL('geojson/estaciones.geojson'),
+    'Estaciones': L.mapbox.featureLayer().loadURL('geojson/estaciones.geojson').addTo(map),
     'Puentes': L.mapbox.featureLayer().loadURL('geojson/puentes.geojson'),
     'Túneles': L.mapbox.featureLayer().loadURL('geojson/tuneles.geojson')
 
 
   }).addTo(map);
 
-  var ferrovias2 = new L.GeoJSON.AJAX("geojson/tramos-ep.geojson", {
-    style: function(feature) {return {color: "#00DB3a"};
-    }
-  }).addTo(map);
+  // Define a style
+  var myStyle = {
+          "color": "#ff7800",
+          "weight": 4,
+          "opacity": 0.8
+      };
 
-    // As with any other AJAX request, this technique is subject to the Same Origin Policy:
-    // http://en.wikipedia.org/wiki/Same_origin_policy
-    // So the CSV file must be on the same domain as the Javascript, or the server
-    // delivering it should support CORS.
+  // Add the style to your layer
+  var geojson = new L.GeoJSON.AJAX("geojson/tramos-ep.geojson",{
+           style:myStyle}).addTo(map);
+
 
   </script>
 

@@ -1,1 +1,73 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"Puente fiscal","desc":"Estado: Bueno, pero sólo utilizable por trenes"},"geometry":{"type":"Point","coordinates":[-71.2525074912,-29.8955116166]}},{"type":"Feature","properties":{"name":"Puente El Islón","desc":"Estado: Bueno, se utiliza regularmente para tránsito vehicular y peatonal."},"geometry":{"type":"Point","coordinates":[-71.1833730895,-29.9031460449]}},{"type":"Feature","properties":{"name":"Puente Yungay","desc":"Estado: Desmantelado, estructura firme."},"geometry":{"type":"Point","coordinates":[-70.79771161079407,-30.019555552460808]}},{"type":"Feature","properties":{"name":"Pasarela quebrada de Leiva","desc":"Estado: Construcción nueva"},"geometry":{"type":"Point","coordinates":[-70.69791197776794,-30.02889117411792]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#827435",
+        "marker-size": "small",
+        "marker-symbol": "p",
+        "name": "Puente fiscal",
+        "desc": "Estado: Bueno, pero sólo utilizable por trenes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2525074912,
+          -29.8955116166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puente El Islón",
+        "desc": "Estado: Bueno, se utiliza regularmente para tránsito vehicular y peatonal.",
+        "marker-color": "#827435",
+        "marker-size": "small",
+        "marker-symbol": "p"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1833730895,
+          -29.9031460449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puente Yungay",
+        "desc": "Estado: Desmantelado, estructura firme.",
+        "marker-color": "#827435",
+        "marker-size": "small",
+        "marker-symbol": "p"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.79771161079407,
+          -30.019555552460808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-symbol": "p",
+        "name": "Pasarela quebrada de Leiva",
+        "desc": "Estado: Construcción nueva",
+        "marker-color": "#827435",
+        "marker-size": "small"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.69791197776794,
+          -30.02889117411792
+        ]
+      }
+    }
+  ]
+}

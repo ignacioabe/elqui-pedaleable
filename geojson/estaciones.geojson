@@ -6,7 +6,9 @@
       "properties": {
         "title": "Estación Almendral",
         "description": "Estado de conservación: demolida<br>Uso actual: terreno privado",
-        "img": "almendral.jpg"
+        "img": "almendral.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -21,7 +23,9 @@
       "properties": {
         "title": "Estación Altovalsol",
         "description": "Estado de conservación: deteriorada<br>Uso actual: bodega",
-        "img": "altovalsol.jpg"
+        "img": "altovalsol.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -36,7 +40,9 @@
       "properties": {
         "title": "Estación Diaguitas",
         "description": "Estado de conservación: restaurada<br>Uso actual: domicilio particular",
-        "img": "diaguitas.jpg"
+        "img": "diaguitas.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -51,7 +57,9 @@
       "properties": {
         "title": "Estación El Arenal",
         "description": "Estado de conservación: restaurada<br>Uso actual: dependencias del colegio municipal de el Arenal",
-        "img": "el-arenal.jpg"
+        "img": "el-arenal.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -66,7 +74,9 @@
       "properties": {
         "title": "Estación El Molle",
         "description": "Estado de conservación: restaurada<br>Uso actual: comisaría de carabineros",
-        "img": "el-molle.jpg"
+        "img": "el-molle.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -81,7 +91,9 @@
       "properties": {
         "title": "Estación El Tambo",
         "description": "Estado de conservación: reconstruída parcialmente<br>Uso actual: sin uso",
-        "img": "el-tambo.jpg"
+        "img": "el-tambo.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +108,9 @@
       "properties": {
         "title": "Estación Gualliguaica",
         "description": "Estado de conservación: inundada y reconstruída en otro lugar<br>Uso actual: museo de Gualliguaica",
-        "img": "gualliguaica.jpg"
+        "img": "gualliguaica.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -111,7 +125,9 @@
       "properties": {
         "title": "Estación El Islón",
         "description": "Estado de conservación: daño menor<br>Uso actual: bodega",
-        "img": "el-islon.jpg"
+        "img": "el-islon.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -124,6 +140,8 @@
     {
       "type": "Feature",
       "properties": {
+        "marker-color": "#d4461f",
+        "marker-symbol": "e",
         "title": "Estación La Serena",
         "description": "Estado de conservación: restaurada<br>Uso actual: oficinas y casa de la cultura, Municipalidad de la Serena",
         "img": "la-serena.jpg"
@@ -141,7 +159,9 @@
       "properties": {
         "title": "Estación Marquesa",
         "description": "Estado de conservación: restaurada<br>Uso actual: sin uso",
-        "img": "marquesa.jpg"
+        "img": "marquesa.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -156,7 +176,9 @@
       "properties": {
         "title": "Estación Pelícana",
         "description": "Estado de conservación: deteriorada<br>Uso actual: sin uso",
-        "img": "pelicana.jpg"
+        "img": "pelicana.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -171,7 +193,9 @@
       "properties": {
         "title": "Estación Rivadavia",
         "description": "Estado de conservación: daño menor<br>Uso actual: sin uso",
-        "img": "rivadavia.jpg"
+        "img": "rivadavia.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -186,7 +210,9 @@
       "properties": {
         "title": "Estación Vicuña",
         "description": "Estado de conservación: restaurada<br>Uso actual: sin uso",
-        "img": "vicuna.jpg"
+        "img": "vicuna.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
@@ -201,7 +227,9 @@
       "properties": {
         "title": "Estación Las Rojas",
         "description": "Estado de conservación: restaurada<br>Uso actual: domicilio particular",
-        "img": "las-rojas.jpg"
+        "img": "las-rojas.jpg",
+        "marker-color": "#d4461f",
+        "marker-symbol": "e"
       },
       "geometry": {
         "type": "Point",
