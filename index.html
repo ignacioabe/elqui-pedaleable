@@ -19,11 +19,11 @@
   L.mapbox.accessToken = 'pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA';
   var map = L.mapbox.map('map').setView([-30.0114,-70.8151], 10);
 
-  var naranjo = {
-      color: "#420000",
-      weight: 3,
-      opacity: 0.9,
-}
+//   var naranjo = {
+//       color: "#420000",
+//       weight: 3,
+//       opacity: 0.9,
+// }
 
   L.control.layers({
     'Mapa': L.mapbox.tileLayer('mapbox.streets').addTo(map),
@@ -36,12 +36,12 @@
 
   }).addTo(map);
 
-  // Define a style
-  var myStyle = {
-          "color": "#ff7800",
-          "weight": 4,
-          "opacity": 0.8
-      };
+  // // Define a style
+  // var myStyle = {
+  //         "color": "#ff7800",
+  //         "weight": 4,
+  //         "opacity": 0.8
+  //     };
 
       var ferrovia = L.mapbox.featureLayer()
           .loadURL('geojson/tramos-ep.geojson')
