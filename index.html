@@ -19,10 +19,14 @@
   L.mapbox.accessToken = 'pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA';
   var map = L.mapbox.map('map').setView([-30.0114,-70.8151], 10);
 
-//capas:
-var marcEstaciones =  L.mapbox.featureLayer().loadURL('geojson/estaciones.geojson')
-var marcTuneles = L.mapbox.featureLayer().loadURL('geojson/tuneles.geojson')
-var marcPuentes = L.mapbox.featureLayer().loadURL('geojson/puentes.geojson')
+//capa vectorial polilínea ferrovía
+  var ferrovia = L.mapbox.featureLayer().loadURL('geojson/tramos-ep.geojson')
+  .addTo(map);
+
+  //capas vectoriales marcadores: estaciones, túneles y puentes
+  var marcEstaciones =  L.mapbox.featureLayer().loadURL('geojson/estaciones.geojson')
+  var marcTuneles = L.mapbox.featureLayer().loadURL('geojson/tuneles.geojson')
+  var marcPuentes = L.mapbox.featureLayer().loadURL('geojson/puentes.geojson')
 
   L.control.layers({
     'Mapa': L.mapbox.tileLayer('mapbox.streets').addTo(map),
@@ -35,16 +39,11 @@ var marcPuentes = L.mapbox.featureLayer().loadURL('geojson/puentes.geojson')
 
   }).addTo(map);
 
-
-      var ferrovia = L.mapbox.featureLayer()
-          .loadURL('geojson/tramos-ep.geojson')
-          .addTo(map);
-
-// When the features are loaded, make sure
-// the basemap display's the same geographical coordinates.
-ferrovia.on('ready', function() {
-  map.fitBounds(ferrovia.getBounds());
-});
+  // When the features are loaded, make sure
+  // the basemap display's the same geographical coordinates.
+  ferrovia.on('ready', function() {
+    map.fitBounds(ferrovia.getBounds());
+  });
 
   </script>
 
