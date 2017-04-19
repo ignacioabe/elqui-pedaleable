@@ -19,14 +19,18 @@
   L.mapbox.accessToken = 'pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA';
   var map = L.mapbox.map('map').setView([-30.0114,-70.8151], 10);
 
+//capas:
+var marcEstaciones =  L.mapbox.featureLayer().loadURL('geojson/estaciones.geojson')
+var marcTuneles = L.mapbox.featureLayer().loadURL('geojson/tuneles.geojson')
+var marcPuentes = L.mapbox.featureLayer().loadURL('geojson/puentes.geojson')
 
   L.control.layers({
     'Mapa': L.mapbox.tileLayer('mapbox.streets').addTo(map),
     'Foto Satelital': L.mapbox.tileLayer('mapbox.satellite')
   }, {
-    'Estaciones': L.mapbox.featureLayer().loadURL('geojson/estaciones.geojson').addTo(map),
-    'Puentes': L.mapbox.featureLayer().loadURL('geojson/puentes.geojson'),
-    'Túneles': L.mapbox.featureLayer().loadURL('geojson/tuneles.geojson')
+    'Estaciones': marcEstaciones.addTo(map),
+    'Puentes': marcPuentes,
+    'Túneles': marcTuneles
 
 
   }).addTo(map);
