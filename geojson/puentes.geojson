@@ -7,8 +7,8 @@
         "marker-color": "#827435",
         "marker-size": "small",
         "marker-symbol": "p",
-        "name": "Puente fiscal",
-        "desc": "Estado: Bueno, pero sólo utilizable por trenes"
+        "title": "Puente fiscal",
+        "description": "Estado: Bueno, pero sólo utilizable por trenes"
       },
       "geometry": {
         "type": "Point",
@@ -21,8 +21,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Puente El Islón",
-        "desc": "Estado: Bueno, se utiliza regularmente para tránsito vehicular y peatonal.",
+        "title": "Puente El Islón",
+        "description": "Estado: Bueno, se utiliza regularmente para tránsito vehicular y peatonal.",
         "marker-color": "#827435",
         "marker-size": "small",
         "marker-symbol": "p"
@@ -38,8 +38,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Puente Yungay",
-        "desc": "Estado: Desmantelado, estructura firme.",
+        "title": "Puente Yungay",
+        "description": "Estado: Desmantelado, estructura firme.",
         "marker-color": "#827435",
         "marker-size": "small",
         "marker-symbol": "p"
@@ -56,8 +56,8 @@
       "type": "Feature",
       "properties": {
         "marker-symbol": "p",
-        "name": "Pasarela quebrada de Leiva",
-        "desc": "Estado: Construcción nueva",
+        "title": "Pasarela quebrada de Leiva",
+        "description": "Estado: Construcción nueva",
         "marker-color": "#827435",
         "marker-size": "small"
       },

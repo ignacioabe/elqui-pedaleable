@@ -7,8 +7,8 @@
         "marker-color": "#479e5d",
         "marker-size": "small",
         "marker-symbol": "t",
-        "name": "Túnel El Maitén",
-        "desc": "Estado: Abandonado, estructura firme.<br>Longitud: 130 metros."
+        "title": "Túnel El Maitén",
+        "description": "Estado: Abandonado, estructura firme.<br>Longitud: 130 metros."
       },
       "geometry": {
         "type": "Point",
@@ -21,8 +21,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Túnel El Almendral",
-        "desc": "Estado: Abandonado, estructura firme.<br>Longitud: 42 metros.",
+        "title": "Túnel El Almendral",
+        "description": "Estado: Abandonado, estructura firme.<br>Longitud: 42 metros.",
         "marker-color": "#479e5d",
         "marker-size": "small",
         "marker-symbol": "t"
@@ -38,8 +38,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Túnel Puclaro",
-        "desc": "Estado: Abandonado, estructura firme<br>Longitud: 51 metros.",
+        "title": "Túnel Puclaro",
+        "description": "Estado: Abandonado, estructura firme<br>Longitud: 51 metros.",
         "marker-color": "#479e5d",
         "marker-size": "small",
         "marker-symbol": "t"
@@ -55,8 +55,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Túnel Bellavista",
-        "desc": "Abandonado, estructura firme.<br>Longitud: 59 metros.",
+        "title": "Túnel Bellavista",
+        "description": "Abandonado, estructura firme.<br>Longitud: 59 metros.",
         "marker-color": "#479e5d",
         "marker-size": "small",
         "marker-symbol": "t"
@@ -72,8 +72,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Túnel Huancara",
-        "desc": "Abandono, estructura firme.<br>Longitud: 150 metros.",
+        "title": "Túnel Huancara",
+        "description": "Abandono, estructura firme.<br>Longitud: 150 metros.",
         "marker-color": "#479e5d",
         "marker-size": "small",
         "marker-symbol": "t"
