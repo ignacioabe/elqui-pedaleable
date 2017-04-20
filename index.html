@@ -3,9 +3,11 @@
 <head>
   <meta charset=utf-8 />
   <title>Mapa Elqui Pedaleable 2.0</title>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
-  <link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js"></script>
+  <link href="https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css" rel="stylesheet" />
+
+  </script>
   <style>
   body { margin:0; padding:0; }
   #map { position:absolute; top:0; bottom:0; width:100%; }
@@ -13,35 +15,39 @@
 </head>
 <body>
 
-  <div id='map'></div>
+  <div id="map">
+    <div class="hola">
+      <p>ignacio</p>
+    </div>
+  </div>
 
   <script>
-  L.mapbox.accessToken = 'pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA';
-  var map = L.mapbox.map('map').setView([-30.0114,-70.8151], 10);
+  L.mapbox.accessToken = "pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA";
+  var map = L.mapbox.map("map").setView([-30.0114,-70.8151], 10);
 
 //capa vectorial polilínea ferrovía
-  var ferrovia = L.mapbox.featureLayer().loadURL('geojson/tramos-ep.geojson')
+  var ferrovia = L.mapbox.featureLayer().loadURL("geojson/tramos-ep.geojson")
   .addTo(map);
 
   //capas vectoriales marcadores: estaciones, túneles y puentes
-  var marcEstaciones =  L.mapbox.featureLayer().loadURL('geojson/estaciones.geojson')
-  var marcTuneles = L.mapbox.featureLayer().loadURL('geojson/tuneles.geojson')
-  var marcPuentes = L.mapbox.featureLayer().loadURL('geojson/puentes.geojson')
+  var marcEstaciones =  L.mapbox.featureLayer().loadURL("geojson/estaciones.geojson")
+  var marcTuneles = L.mapbox.featureLayer().loadURL("geojson/tuneles.geojson")
+  var marcPuentes = L.mapbox.featureLayer().loadURL("geojson/puentes.geojson")
 
   L.control.layers({
-    'Mapa': L.mapbox.tileLayer('mapbox.streets').addTo(map),
-    'Foto Satelital': L.mapbox.tileLayer('mapbox.satellite')
+    "Mapa": L.mapbox.tileLayer("mapbox.streets").addTo(map),
+    "Foto Satelital": L.mapbox.tileLayer("mapbox.satellite")
   }, {
-    'Estaciones': marcEstaciones.addTo(map),
-    'Puentes': marcPuentes,
-    'Túneles': marcTuneles
+    "Estaciones": marcEstaciones.addTo(map),
+    "Puentes": marcPuentes,
+    "Túneles": marcTuneles
 
 
   }).addTo(map);
 
   // When the features are loaded, make sure
-  // the basemap display's the same geographical coordinates.
-  ferrovia.on('ready', function() {
+  // the basemap display"s the same geographical coordinates.
+  ferrovia.on("ready", function() {
     map.fitBounds(ferrovia.getBounds());
   });
 
