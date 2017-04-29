@@ -16,14 +16,14 @@
 <body>
 
   <div id="map">
-    <div class="hola">
-      <p>ignacio</p>
-    </div>
   </div>
 
   <script>
   L.mapbox.accessToken = "pk.eyJ1IjoiaWduYWNpb2FiZSIsImEiOiJsTDV0dWFJIn0.Og513NMky_08_sXUUDsrbA";
   var map = L.mapbox.map("map").setView([-30.0114,-70.8151], 10);
+
+  // disable map zoom when using scroll
+  map.scrollWheelZoom.disable();
 
 //capa vectorial polilínea ferrovía
   var ferrovia = L.mapbox.featureLayer().loadURL("geojson/tramos-ep.geojson")
@@ -39,11 +39,10 @@
     "Foto Satelital": L.mapbox.tileLayer("mapbox.satellite")
   }, {
     "Estaciones": marcEstaciones.addTo(map),
-    "Puentes": marcPuentes,
-    "Túneles": marcTuneles
+    "Puentes": marcPuentes.addTo(map),
+    "Túneles": marcTuneles.addTo(map)
 
-
-  }).addTo(map);
+  }, {position:'topleft'}).addTo(map);
 
   // When the features are loaded, make sure
   // the basemap display"s the same geographical coordinates.
